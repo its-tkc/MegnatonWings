@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &59479466424453842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59479466424453840}
+  - component: {fileID: 59479466424453841}
+  m_Layer: 0
+  m_Name: Instantiater
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59479466424453840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59479466424453842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59479466424453841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59479466424453842}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf68cb4cf8740a4380117e7d44e284a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  copter: {fileID: 8529726913847124153, guid: 9748b442e2ed93c41915d893077adac0, type: 3}
+  smallship: {fileID: 285960020280009917, guid: ada3386b203b5d642bb54075f5c96023, type: 3}
+  coin: {fileID: 358405728300272890, guid: c65f6032c76910f458121c4cabb77687, type: 3}
+  ufo: {fileID: 8738450749005999903, guid: 3b04e0132d089684d815dbca59024043, type: 3}
+  powerUp: {fileID: 6225562032484470264, guid: 0c4d229189b9044498b1d795c70cf418, type: 3}
+  copterTime: 0
+  shipTime: 0
+  coinTime: 0
+  ufoTime: 0
+  powerupTime: 0
